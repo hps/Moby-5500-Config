@@ -2,10 +2,10 @@
     "name": "DEV: EMV Contact/Contactless",
     "description": "Credit/Debit, EMV Contact and EMV Contactless",
     "date_modified": "20190717080000",
-    "firmware_id": ["1.009"],
+    "firmware_id": ["1.010"],
     "processor_profile_config_list": [
         {
-            "dynamic_conf_cust_str_ver" : "1.009",
+            "dynamic_conf_cust_str_ver" : "1.010",
             "card_reader_type": "moby5500",
             "public_keys": [
                 {

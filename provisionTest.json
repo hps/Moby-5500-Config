@@ -2,10 +2,10 @@
     "name": "DEV: EMV Contact/Contactless",
     "description": "Credit/Debit, EMV Contact and EMV Contactless",
     "date_modified": "20190717080000",
-    "firmware_id": ["1.011"],
+    "firmware_id": ["1.010"],
     "processor_profile_config_list": [
         {
-            "dynamic_conf_cust_str_ver" : "1.011",
+            "dynamic_conf_cust_str_ver" : "1.010",
             "card_reader_type": "moby5500",
             "public_keys": [
                 {
@@ -688,7 +688,7 @@
             "energy_saver_mode_time": "10",
             "shutdown_mode_time": "180",
             "userinterface_options": {
-                "card_insertion_timeout": "5",
+                "card_insertion_timeout": "40",
                 "merchant_language_code": "en",
                 "supported_languages": "en",
                 "allow_cardholder_language_selection": false,
@@ -698,8 +698,8 @@
             "application_selection_flag": "external",
             "configure_beep": {
                 "disable_read_magnetic_card_beep": false,
-                "disable_remove_card_beep": false,
-                "disable_start_transaction_beep": false
+                "disable_remove_card_beep": true,
+                "disable_start_transaction_beep": true
             }
         }
     ]
